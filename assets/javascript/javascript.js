@@ -43,7 +43,7 @@ $(document).ready(function(){
 
 
     $("#btn1").on("click", function(){
-        a +=  crystalRandomNumber;
+        a +=  crystalRandomNumber1;
         let z = a + b + c + d;
         
         console.log(z);
@@ -154,7 +154,7 @@ $(document).ready(function(){
         d +=  crystalRandomNumber4;
         let z = a + b + c + d;
         
-        $('#playerScore').text(z = a + b + c + d);
+        $('#playerScore').text(a + b + c + d);
 
         if (  z === randomlyPickedNumber){
          
